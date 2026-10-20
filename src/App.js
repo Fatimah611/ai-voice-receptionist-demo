@@ -40,7 +40,7 @@ export default function App() {
 
           {/* Badge */}
           <div style={{ display: "inline-block", padding: "6px 18px", borderRadius: "20px", border: "1px solid #F26522", color: "#F26522", fontSize: "12px", letterSpacing: "1px", marginBottom: "24px" }}>
-            â— LIVE AI AGENT DEMO
+            ● LIVE AI AGENT DEMO
           </div>
 
           <h1 style={{ fontSize: "38px", fontWeight: "bold", margin: "0 0 8px 0" }}>
@@ -48,12 +48,12 @@ export default function App() {
           </h1>
 
           <p style={{ color: "#555", fontSize: "16px", lineHeight: "1.7", margin: "16px 0 32px 0" }}>
-            Experience our AI voice receptionist â€” built to handle real customer conversations, book appointments, and respond instantly. This demo has been prepared exclusively for you.
+            Experience our AI voice receptionist — built to handle real customer conversations, book appointments, and respond instantly. This demo has been prepared exclusively for you.
           </p>
 
           {/* Features */}
           <div style={{ display: "flex", justifyContent: "center", gap: "24px", marginBottom: "36px", flexWrap: "wrap" }}>
-            {["âœ… 24/7 Available", "âœ… Real-time AI", "âœ… Custom-built"].map((f) => (
+            {["✅ 24/7 Available", "✅ Real-time AI", "✅ Custom-built"].map((f) => (
               <span key={f} style={{ fontSize: "14px", color: "#444" }}>{f}</span>
             ))}
           </div>
@@ -76,12 +76,12 @@ export default function App() {
               boxShadow: "0 4px 15px rgba(242,101,34,0.3)"
             }}
           >
-            {loading ? "â³ Connecting..." : active ? "â¹ END CALL" : "ðŸŽ™ LAUNCH DEMO â†’"}
+            {loading ? "⏳ Connecting..." : active ? "⏹ END CALL" : "🎙 LAUNCH DEMO →"}
           </button>
 
           {active && (
             <p style={{ marginTop: "16px", color: "#2B6CB0", fontSize: "14px" }}>
-              ðŸ”´ Call is live â€” speak now!
+              🔴 Call is live — speak now!
             </p>
           )}
         </div>
